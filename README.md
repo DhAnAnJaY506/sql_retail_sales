@@ -44,9 +44,6 @@ Some of the key business questions answered in this project:
 
 1. Total Sales Transactions
 
-
-
-
 '''sql
 SELECT COUNT(*) AS total_sales FROM retail_sales;
 '''
