@@ -43,7 +43,6 @@ WHERE transactions_id IS NULL
 Some of the key business questions answered in this project:
 
 1. Total Sales Transactions
-
 '''sql
 SELECT COUNT(*) AS total_sales FROM retail_sales;
 '''
@@ -121,21 +120,21 @@ Clothing had significant bulk orders in Nov 2022.
 Beauty category customers are on average younger.
 Top 5 customers contributed a large share of sales.
 Evening shift recorded higher order counts compared to other times.
-
 Found the best-selling month for each year.
+
 ⚙️ Tech Stack
 Database: PostgreSQL / MySQL
 Language: SQL
 Version Control: Git & GitHub
 
-🚀 How to Run
 
+🚀 How to Run
 Clone this repository:
 git clone https://github.com/DhAnAnJaY506/retail-sales-analysis.git
 cd retail-sales-analysis
 
 Load the SQL script into your database.
 Run queries step by step to explore the dataset.
-📌 Conclusion
 
+📌 Conclusion
 This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data to uncover customer insights, product performance, and sales patterns. It can be extended further with Power BI / Python visualization for dashboards.
