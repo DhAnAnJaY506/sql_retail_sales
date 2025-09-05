@@ -8,7 +8,8 @@ The goal is to perform data cleaning and exploratory analysis to derive insights
 📈 Sales trends over time
 
 🗂️ Table Schema
-```sqlCREATE TABLE retail_sales
+```sql
+CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
