@@ -167,4 +167,4 @@ GROUP BY shift;
 
 This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data.
 It provides insights into customer demographics, sales trends, and product category performance.
-Next step 👉 Integrate with Power BI or Python for visualization dashboards.
+
