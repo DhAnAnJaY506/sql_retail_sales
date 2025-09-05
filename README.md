@@ -12,7 +12,7 @@ The goal is to perform data cleaning and exploratory analysis to derive insights
 
 📈 Sales trends over time
 
-# 🗂️ Table Schema
+## 🗂️ Table Schema
 ```sql
 CREATE TABLE retail_sales
 (
