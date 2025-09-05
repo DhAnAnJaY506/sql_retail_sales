@@ -161,8 +161,6 @@ GROUP BY shift;
 
 🔗 Version Control: Git & GitHub
 
-🚀 How to Run
-
 ## 📌 Conclusion
 
 This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data.
