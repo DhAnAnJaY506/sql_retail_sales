@@ -137,19 +137,29 @@ GROUP BY shift;
 ```
 
 📊 Key Insights
+
 ✔️ Evening shift recorded more orders compared to Morning & Afternoon.
+
 ✔️ Clothing category saw bulk orders in Nov 2022.
+
 ✔️ Customers in the Beauty category were younger on average.
+
 ✔️ Top 5 customers contributed a large share of revenue.
+
 ✔️ Identified best-selling month per year.
 
 ⚙️ Tech Stack
+
 🗄️ Database: PostgreSQL / MySQL
+
 💻 Language: SQL
+
 🔗 Version Control: Git & GitHub
+
 🚀 How to Run
 
 📌 Conclusion
+
 This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data.
 It provides insights into customer demographics, sales trends, and product category performance.
 Next step 👉 Integrate with Power BI or Python for visualization dashboards.
