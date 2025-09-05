@@ -1,10 +1,15 @@
 🛍️ Retail Sales Analysis (SQL Project)
 
 📌 Project Overview
+
 This project focuses on analyzing retail sales data using SQL.
+
 The goal is to perform data cleaning and exploratory analysis to derive insights about:
+
 🧑‍🤝‍🧑 Customer behavior
+
 📦 Product category performance
+
 📈 Sales trends over time
 
 🗂️ Table Schema
