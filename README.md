@@ -5,6 +5,8 @@ This project focuses on analyzing retail sales data using SQL. The goal is to pe
 The dataset contains transactional-level details including date, time, customer demographics, product categories, and sales information.
 
 🗂️ Table Schema
+
+'''sql
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
@@ -19,12 +21,13 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+'''
 
 🧹 Data Cleaning
-
 Removed rows with NULL values in critical fields.
 Verified total row count before and after cleaning.
 
+'''sql
 DELETE FROM retail_sales
 WHERE transactions_id IS NULL
    OR sale_date IS NULL
@@ -37,28 +40,32 @@ WHERE transactions_id IS NULL
    OR price_per_unit IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
+'''
 
 🔎 Exploratory Data Analysis (EDA)
-
 Some of the key business questions answered in this project:
 
 1. Total Sales Transactions
+
 '''sql
 SELECT COUNT(*) AS total_sales FROM retail_sales;
 '''
 
 3. Unique Customers
+
 '''sql
 SELECT COUNT(DISTINCT customer_id) AS total_customers FROM retail_sales;
 '''
 
 
 4. Sales on Specific Date (e.g., 2022-11-05)
+
 '''sql
 SELECT * FROM retail_sales WHERE sale_date = '2022-11-05';
 '''
 
 5. Category-wise Sales Performance
+
 '''sql
 SELECT category, SUM(total_sale) AS total_sales_by_category, COUNT(*) AS total_orders
 FROM retail_sales
@@ -66,6 +73,7 @@ GROUP BY category;
 '''
 
 6. Average Age of Customers (Beauty Category)
+
 '''sql
 SELECT category, ROUND(AVG(age),2) AS avg_age
 FROM retail_sales
@@ -74,6 +82,7 @@ HAVING category = 'Beauty';
 '''
 
 8. Top 5 Customers by Sales
+
 '''sql
 SELECT customer_id, SUM(total_sale) AS total_sales
 FROM retail_sales
@@ -83,6 +92,7 @@ LIMIT 5;
 '''
 
 10. Monthly Average Sales & Best Selling Month per Year
+
 '''sql
 SELECT year, month, avg_sales
 FROM (
@@ -99,6 +109,7 @@ WHERE rank = 1;
 '''
 
 11. Shift-wise Orders (Morning, Afternoon, Evening)
+
 '''sql
 WITH hourly_sale AS (
     SELECT *,
