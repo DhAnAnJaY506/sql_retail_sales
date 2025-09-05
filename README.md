@@ -1,6 +1,6 @@
 ## 🛍️ Retail Sales Analysis (SQL Project)
 
-📌 Project Overview
+#📌 Project Overview
 
 This project focuses on analyzing retail sales data using SQL.
 
@@ -12,7 +12,7 @@ The goal is to perform data cleaning and exploratory analysis to derive insights
 
 📈 Sales trends over time
 
-🗂️ Table Schema
+# 🗂️ Table Schema
 ```sql
 CREATE TABLE retail_sales
 (
@@ -29,7 +29,7 @@ CREATE TABLE retail_sales
     total_sale FLOAT
 );
 ```
-🧹 Data Cleaning
+# 🧹 Data Cleaning
 
 Removed rows with NULL values in important fields.
 
@@ -141,7 +141,7 @@ FROM hourly_sale
 GROUP BY shift;
 ```
 
-📊 Key Insights
+## 📊 Key Insights
 
 ✔️ Evening shift recorded more orders compared to Morning & Afternoon.
 
@@ -153,7 +153,7 @@ GROUP BY shift;
 
 ✔️ Identified best-selling month per year.
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 🗄️ Database: PostgreSQL / MySQL
 
@@ -163,7 +163,7 @@ GROUP BY shift;
 
 🚀 How to Run
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates how SQL can be used to clean, explore, and analyze retail sales data.
 It provides insights into customer demographics, sales trends, and product category performance.
