@@ -130,7 +130,7 @@ Version Control: Git & GitHub
 🚀 How to Run
 
 Clone this repository:
-git clone https://github.com/yourusername/retail-sales-analysis.git
+git clone https://github.com/DhAnAnJaY506/retail-sales-analysis.git
 cd retail-sales-analysis
 
 Load the SQL script into your database.
