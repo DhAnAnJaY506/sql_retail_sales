@@ -21,7 +21,7 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
-'''
+
 
 🧹 Data Cleaning
 Removed rows with NULL values in critical fields.
