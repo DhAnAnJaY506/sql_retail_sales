@@ -1,6 +1,6 @@
-## Retail Sales Analysis 
+# Retail Sales Analysis 
 
-# Project Overview
+## Project Overview
 
 * This project focuses on analyzing retail sales data using SQL.
 * The goal is to perform data cleaning and exploratory analysis to derive insights about:
@@ -25,7 +25,7 @@ CREATE TABLE retail_sales
     total_sale FLOAT
 );
 ```
-# Data Cleaning
+## Data Cleaning
 
 * Removed rows with NULL values in important fields.
 * Ensured correct row count before and after cleaning.
@@ -43,7 +43,7 @@ WHERE transactions_id IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
 ```
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 * Here are some key business questions answered in this project:
 
 1.Total Sales Transactions
